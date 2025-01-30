@@ -1,6 +1,8 @@
 control to the ceiling light mainly depends on sending messages to DP 51. 
 RGB color is still to be tested. 
 
+To turn on/off the light (basically the main switch), set DP20. 
+
 |command | pos | range |
 |---|---|------|
 | turn on white light| byte 2 bit 1 | 0-1|
